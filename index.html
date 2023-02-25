@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="main">
+			<form action="" method="POST" class="form" id="form-1">
+				<h3 class="heading">Registration</h3>
+				<p class="desc">Let's learn together ❤️</p>
+
+				<div class="spacer"></div>
+
+				<div class="form-group">
+					<label for="avatar" class="form-label">Avatar</label>
+					<input id="avatar" name="avatar" type="file" class="form-control" />
+					<span class="form-message"></span>
+				</div>
+
+				<div class="form-group">
+					<label for="fullname" class="form-label">Fullname</label>
+					<input
+						id="fullname"
+						name="fullname"
+						type="text"
+						placeholder="Eg: John Snow"
+						class="form-control"
+					/>
+					<span class="form-message"></span>
+				</div>
+
+				<div class="form-group">
+					<label for="email" class="form-label">Email</label>
+					<input
+						id="email"
+						name="email"
+						type="text"
+						placeholder="Eg: email@domain.com"
+						class="form-control"
+					/>
+					<span class="form-message"></span>
+				</div>
+
+				<div class="form-group">
+					<label for="password" class="form-label">Password</label>
+					<input
+						id="password"
+						name="password"
+						type="password"
+						placeholder="Enter your password"
+						class="form-control"
+					/>
+					<span class="form-message"></span>
+				</div>
+
+				<div class="form-group">
+					<label for="password_confirmation" class="form-label"
+						>Password confirmation</label
+					>
+					<input
+						id="password_confirmation"
+						name="password_confirmation"
+						placeholder="Enter your password again"
+						type="password"
+						class="form-control"
+					/>
+					<span class="form-message"></span>
+				</div>
+
+				<div class="form-group">
+					<label for="gender" class="form-label">Gender</label>
+					<div>
+						<input
+							name="gender"
+							type="radio"
+							class="form-control"
+							value="male"
+						/>
+						Male
+					</div>
+					<div>
+						<input
+							name="gender"
+							type="radio"
+							class="form-control"
+							value="female"
+						/>
+						Female
+					</div>
+					<span class="form-message"></span>
+				</div>
+
+				<div class="form-group">
+					<label for="province" class="form-label">City</label>
+					<select name="province" id="province" class="form-control">
+						<option value="">Select Province</option>
+						<option value="hni">Hanoi</option>
+						<option value="hpg">Haiphong</option>
+					</select>
+					<span class="form-message"></span>
+				</div>
+
+				<button class="form-submit">Sign up</button>
+			</form>
+		</div>
+		<script src="./assets/js/validator.js"></script>
+		<script src="./assets/js/main.js"></script>
+	</body>
+</html>
